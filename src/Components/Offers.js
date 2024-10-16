@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Offers = () => {
   return (
@@ -8,57 +8,89 @@ const Offers = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="section-heading">
-              <h2>Our <em>Offers</em></h2>
+              <h2>
+                Our <em>Offers</em>
+              </h2>
               <span>We have large collection of cars for you</span>
             </div>
           </div>
           <div className="col-md-4">
             <div className="service-item">
-              <img src={require("../images/offer-1-720x480.jpg")} alt=""/>
+              <img
+                src={require("../images/offer-1-720x480.jpg")}
+                alt="Random ALT"
+              />
               <div className="down-content">
                 <h4>Lorem ipsum dolor sit amet</h4>
-                <div style={{ marginBottom:"10px" }}>
-                  <span>from <sup>$</sup>120 per weekend</span>
+                <div style={{ marginBottom: "10px" }}>
+                  <span>
+                    from <sup>$</sup>120 per weekend
+                  </span>
                 </div>
-                <p>Sed tincidunt dictum lobortis. Aenean tempus diam vel augue luctus dignissim. Nunc ornare leo tortor.</p>
-                <Link to="/" className="filled-button">Book Now</Link>
+                <p>
+                  Sed tincidunt dictum lobortis. Aenean tempus diam vel augue
+                  luctus dignissim. Nunc ornare leo tortor.
+                </p>
+                <Link to="/" className="filled-button">
+                  Book Now
+                </Link>
               </div>
             </div>
-            
-            <br/>
+
+            <br />
           </div>
           <div className="col-md-4">
             <div className="service-item">
-              <img src={require("../images/offer-2-720x480.jpg")} alt=""/>
+              <img
+                src={require("../images/offer-2-720x480.jpg")}
+                alt="Random ALT"
+              />
               <div className="down-content">
                 <h4>Odio libero vel autem atque consequuntur</h4>
-                <div style={{ marginBottom:"10px" }}>
-                  <span>from <sup>$</sup>120 per weekend</span>
+                <div style={{ marginBottom: "10px" }}>
+                  <span>
+                    from <sup>$</sup>120 per weekend
+                  </span>
                 </div>
-                <p>Sed tincidunt dictum lobortis. Aenean tempus diam vel augue luctus dignissim.</p>
-                <Link to="offers.html" className="filled-button">Book Now</Link>
+                <p>
+                  Sed tincidunt dictum lobortis. Aenean tempus diam vel augue
+                  luctus dignissim.
+                </p>
+                <Link to="offers.html" className="filled-button">
+                  Book Now
+                </Link>
               </div>
             </div>
-            <br/>
+            <br />
           </div>
           <div className="col-md-4">
             <div className="service-item">
-              <img src={require("../images/offer-3-720x480.jpg")} alt=""/>
+              <img
+                src={require("../images/offer-3-720x480.jpg")}
+                alt="Random ALT"
+              />
               <div className="down-content">
                 <h4>Libero eveniet sint nemo beatae</h4>
-                <div style={{ marginBottom:"10px" }}>
-                  <span>from <sup>$</sup>120 per weekend</span>
+                <div style={{ marginBottom: "10px" }}>
+                  <span>
+                    from <sup>$</sup>120 per weekend
+                  </span>
                 </div>
-                <p>Sed tincidunt dictum lobortis. Aenean tempus diam vel augue luctus dignissim.</p>
-                <Link to="offers.html" className="filled-button">Book Now</Link>
+                <p>
+                  Sed tincidunt dictum lobortis. Aenean tempus diam vel augue
+                  luctus dignissim.
+                </p>
+                <Link to="offers.html" className="filled-button">
+                  Book Now
+                </Link>
               </div>
             </div>
-            <br/>
+            <br />
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Offers
+export default Offers;
